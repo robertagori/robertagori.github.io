@@ -6,7 +6,7 @@ body {
 
 #link {
 	color: rgb(0,0,0);
-	font-size: 50 px;
+	font-size: 150;
 	font-family: Franklin Gothic; monospace;
 	text-decoration: none;
 	padding: 1.5%;
@@ -18,21 +18,22 @@ body {
  
 .begin {
 	text-align: center; 
-	background-image: url(images/background.jpg);
+	background-image: url(../images/background.JPG);
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-attachment: scroll;
-	margin: 4%;
+	PADDING: 10%;
+	margin: 0;
 }
 			h1 {
 				color: rgb(0,0,0);
-				font-size: 270%;
+				font-size: 400%;
 				text-transform: uppercase;
 				font-family: Franklin Gothic; monospace;
 			}
 			#subtext {
 				color: rgb(0,0,0);
-				font-size: 130%;
+				font-size: 160%;
 				font-style: italic;
 				font-family: Lucida Calligraphy; monospace;
 				padding-top: 1.5%;
@@ -44,7 +45,7 @@ body {
 
 
 
-.navigation {
+nav {
 	text-align: right;
 	background-color: rgb(120,120,120);
 	padding: 1%;
@@ -53,7 +54,7 @@ body {
 }
 			.p {
 				color: rgb(255,255,255);
-				font-size: 40 px;
+				font-size: 130%;
 				font-family: Franklin Gothic; monospace;
 				text-decoration: none;
 				padding: 1%;
