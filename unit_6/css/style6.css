@@ -1,0 +1,192 @@
+
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script');
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+
+*{
+ 	margin: 0;
+ 	padding: 0;
+ 	box-sizing: border-box;
+}
+
+body {
+ 	margin: 0;
+ 	font-size: 16px;
+ 	background-color: rgb(240,240,240);
+}
+main, footer {
+	margin:auto;
+	max-width:96.5em;
+	box-shadow: 0px 15px 20px rgba(0,0,0,.4), 0 20px 20px rgba(0,0,0,.3);
+}
+
+section {
+	padding:4em 0;
+}
+#link {
+	color: rgb(0,0,0);
+	font-size: 2em;
+	font-family: 'Oswald', sans-serif;
+	text-decoration: none;
+	padding: 0.5em;
+	border-width: thin;
+	border-color: rgb(0,0,0);
+	border-style: solid;
+	display: inline-block;
+}
+
+.begin {
+	text-align: center; 
+	background-image: url(../images/background.JPG);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	padding: 10em; 
+	margin: 0;
+}
+			h1 {
+				color: rgb(0,0,0);
+				font-size: 4em;
+				text-transform: uppercase;
+				font-family: 'Oswald', sans-serif;
+			}
+			#subtext {
+				color: rgb(0,0,0);
+				font-size: 2.5em;
+				font-style: italic;
+				font-family: 'Dancing Script', cursive;
+				margin: 1em 0em 2em 0em;
+			}
+			#explore {
+				text-transform: uppercase;
+			}
+
+nav {
+	background-color: rgb(80,80,80);
+	padding: .75em;
+}
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	content: " ";
+	clear: both;
+	height: 0;
+	font-size: 0;
+}
+
+			.p {
+				color: rgb(255,255,255);
+				font-size: 1.5em;
+				font-family: 'Oswald', sans-serif;
+				text-decoration: none;
+				padding: 0.5em 2em;
+				display: block,
+				float: right;
+			 	}
+
+			 .p:hover {
+					 	background-color: rgb(30,30,30);
+					 	}
+
+
+
+#art {
+	background-image: url(../images/quotes.jpg);
+	margin: 0 auto;
+	padding: 2em;
+}	
+			#quote {
+				text-align: center;
+				color: rgb(0,0,0);
+				font-size: 3em;
+				text-transform: uppercase;
+				font-family: 'Oswald', sans-serif;
+				padding-top: 1em;
+
+			}	
+			.photography {
+				color: rgb(0,0,0);
+				text-align: center;
+				font-style: italic;
+				font-family: 'Dancing Script', cursive;
+				font-size: 1.5em;
+				padding: 1em 7em;
+			 }	
+
+
+
+.image {
+ 	text-align: center;
+}
+			 .image img  {
+			 	width: 50%;
+			 	margin: 0;
+			 	text-align: center;
+			 	float: left;
+			 }
+	
+	
+.service {
+ 	background-image: url(../images/service.JPG);
+ 	background-size: cover;
+ 	background-repeat: no-repeat;
+ 	padding: 7em 0 6em 15%;
+}
+			#ps {
+				color: rgb(0,0,0);
+				text-align: justify;
+				font-family: 'Oswald', sans-serif;
+				text-transform: uppercase;
+				font-size: 2.7em;
+			}
+			.list {
+				color: rgb(0,0,0);
+				text-align: justify;
+				font-style: italic;
+				font-family: 'Dancing Script', cursive;
+				font-size: 2em;
+				padding-left: 1em;
+			}
+		 	
+
+.c {
+ 	text-align: center;
+ 	padding: 4em 0;
+ 	background-color: rgb(255,255,255);
+ 	clear: both;
+}
+			.contact {
+				text-align: center;
+				color: rgb(0,0,0);
+				font-size: 2.7em;
+				text-transform: uppercase;
+				font-family: 'Oswald', sans-serif;
+			}
+			.booking {
+				padding-left: 20%;
+				padding-right: 20%;
+				text-align: center;
+				color: rgb(0,0,0);
+				font-size: 1.3em;
+				font-family: 'Oswald', sans-serif;
+				padding-top: 1%;
+				padding-bottom: 3%;
+			}
+			#mail{
+				text-align: center;
+				color: rgb(233,0,36);
+				font-size: 1.3em;
+				font-family: 'Oswald', sans-serif;
+				text-decoration: none;
+				padding: 1em;
+				border-width: thin;
+				border-color: rgb(233,0,36);
+				border-style: solid;
+				display: inline-block;
+			}
+
+footer {
+ 	text-align: center;
+ 	padding: 4em 0 2em 0;
+ 	background-color: rgb(255,255,255);
+}
