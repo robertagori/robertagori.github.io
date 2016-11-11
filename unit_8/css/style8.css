@@ -110,18 +110,34 @@ nav {
 
 
 
-.image {
- 	text-align: center;
-}
-			 .image img  {
-			 	width: 50%;
-			 	margin: 0;
-			 	text-align: center;
-			 	float: left;
-			 }
-			 .image a:hover {
- 				background-color: rgba(0,0,0,0.5);
-			 }
+.album   {
+		background-color: white;
+		width: 50%;
+		float: left;
+		margin: 0 auto;
+	}	
+.album  img {
+		margin: 0;
+		width: 100%;
+		text-align: center;	
+		top: 2px;
+	}
+
+.album a  {
+		color: rgba(255,255,255,0);
+		text-decoration: none;
+		text-transform: uppercase;
+		font-size: 2em;
+		position: relative;
+		top: 50%;
+		text-align: center;
+		font-family: 'Oswald', sans-serif;
+		height: 200px;
+	}
+		.album h3:hover {
+					 	background-color: rgba(0,0,0,0.4);
+					 	color: rgba(255,255,255,1);
+					 }	 		 
 	
 	
 	
@@ -129,7 +145,7 @@ nav {
  	background-image: url(../images/service.jpg);
  	background-size: cover;
  	background-repeat: no-repeat;
- 	padding: 7em 2em 6em 10em;
+ 	padding: 7em 10em 6em 10em;
  	margin:auto;
 	max-width:96.5em;
 }
@@ -142,7 +158,6 @@ nav {
 			}
 			.list {
 				color: rgb(0,0,0);
-				text-align: justify;
 				font-style: italic;
 				font-family: 'Dancing Script', cursive;
 				font-size: 2em;
@@ -206,7 +221,7 @@ footer img {
 
 
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 870px) {
 	.begin {
 		padding: 5em;
 		background-size: cover; 
@@ -217,6 +232,9 @@ footer img {
 	.photography {
 		padding: 1em 3em;
 	}	
+	.album a {
+	 	font-size: 1em;
+	 }
 	.list {
 		padding: 1em 1em 0;
 		font-size: 1.5em;
@@ -235,11 +253,7 @@ footer img {
 }	
 
 
-@media only screen and (max-width: 400px) {
-	body {
-	 	margin: 0;
-	 	font-size: 10px;
-	}	 	
+@media only screen and (max-width: 615px) {
 	.begin {
 		padding: 3em;
 		background-width: 400px; 
@@ -266,7 +280,7 @@ footer img {
 	.photography {
 		padding: 1em .5em;
 	}	
-	.image img  {
+	.album {
 	 	width: 100%;
 	 	margin: 0.2em 0;
 	 }
@@ -279,10 +293,29 @@ footer img {
 		background-width: 400px;	
 	}	
 	footer img {
-		width: 30px;
+		width: 50px;
 		margin: .5em;
 	}
 	footer  {
 		background-size: cover;	
 	}
 }	
+
+
+
+@media only screen and (max-width: 400px) {
+	.begin {
+		padding: 3em;
+		background-width: 400px; 
+	}
+	.album a {
+	 	font-size: 0.8em;
+	 }
+	footer img {
+		width: 40px;
+		margin: .2em;
+	}
+	footer  {
+		background-size: cover;	
+	}
+}
