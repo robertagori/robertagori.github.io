@@ -6,6 +6,7 @@
  	margin: 0;
  	padding: 0;
  	box-sizing: border-box;
+ 	transition-duration:.25s;
 }
 
 body {
@@ -111,33 +112,35 @@ nav {
 
 
 .album   {
-		background-color: white;
-		width: 50%;
 		float: left;
-		margin: 0 auto;
+		line-height:0;
+		position: relative;
+		width: 50%;
 	}	
 .album  img {
-		margin: 0;
 		width: 100%;
-		text-align: center;	
-		top: 2px;
 	}
 
-.album a  {
-		color: rgba(255,255,255,0);
-		text-decoration: none;
-		text-transform: uppercase;
-		font-size: 2em;
-		position: relative;
-		top: 50%;
-		text-align: center;
-		font-family: 'Oswald', sans-serif;
-		height: 200px;
-	}
-		.album h3:hover {
-					 	background-color: rgba(0,0,0,0.4);
-					 	color: rgba(255,255,255,1);
-					 }	 		 
+.album h3  {
+	font-size: 2em;
+	font-family: 'Oswald', sans-serif;
+	position: absolute;
+	top: 50%;left:50%;
+	transform:translate(-50%,-50%);
+	text-align: center;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+.album div {
+	background-color: rgba(0,0,0,0);
+	color:rgba(255,255,255,0);
+	position:absolute;
+	top:0;bottom:0;left:0;right:0;
+}
+.album:hover div {
+	background-color: rgba(0,0,0,0.4);
+	color:rgba(255,255,255,1);
+} 		 
 	
 	
 	
@@ -232,9 +235,10 @@ footer img {
 	.photography {
 		padding: 1em 3em;
 	}	
-	.album a {
-	 	font-size: 1em;
-	 }
+	.album div {
+		background-color: rgba(0,0,0,.4);
+		color:rgba(255,255,255,1);
+	}
 	.list {
 		padding: 1em 1em 0;
 		font-size: 1.5em;
